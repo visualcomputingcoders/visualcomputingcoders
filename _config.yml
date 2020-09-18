@@ -16,7 +16,7 @@
 title: visual computing 20202
 email: Unalvisual@visualcoders.com
 description: Sitio para los avances y entregables de la materia computacion visual - Universidad nacional
-baseurl: "/visualCoders_unal" # the subpath of your site, e.g. /blog
+baseurl: "/visualcomputingcoders" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  visualcodersunal
