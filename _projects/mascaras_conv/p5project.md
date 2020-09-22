@@ -24,12 +24,7 @@ acciones:
     <script type="text/javascript" src="maskSW.js"></script>
 </div>
 
-<iframe src="http://visualcomputing.tk/convolucion/index.html" name="SubHtml"
-      width="720" height="400" scrolling="auto" frameborder="1">
-     
-</iframe>
 
-<h5>Demo en servidor js Pato </h5>
- <a href="http://visualcomputing.tk/convolucion/index.html">Demo</a>
+<h5>Demo prueba en servidor nodejs Pato <a href="http://visualcomputing.tk/convolucion/index.html">Demo</a> </h5>
 
 
