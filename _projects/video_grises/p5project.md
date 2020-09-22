@@ -8,17 +8,10 @@ dependencies:
     - p5.dom
 ---
 
-### Video test
-
-acciones:
-- Tecla 1: 
-- Tecla 2: 
-- Tecla 0: 
-
-
-<div id="simple-sketch-holder">
-    <script type="text/javascript" src="videosw.js"></script>
-</div>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+<body>
+    <h1>Processing Test</h1>
+ 
+    <canvas data-processing-sources="video.pde"></canvas>
+</body>
 

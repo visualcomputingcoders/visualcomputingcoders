@@ -6,6 +6,10 @@ thumbnail: histo.png
 
 ---
 
+acciones:
+- Teclas de dirección para cambiar entre imagenes
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
 <body>
