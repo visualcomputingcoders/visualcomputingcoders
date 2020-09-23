@@ -18,6 +18,7 @@ acciones:
 - Tecla 6: Desenfoque Gauss
 
  
+<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/mascaras_conv/maskSW.js"> codigo </a>
 
 
 <div id="simple-sketch-holder">
@@ -26,5 +27,4 @@ acciones:
 
 
 <h5>Demo prueba en servidor nodejs Pato <a href="http://visualcomputing.tk/convolucion/index.html">Demo</a> </h5>
-
 

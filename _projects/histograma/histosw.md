@@ -7,8 +7,9 @@ thumbnail: histo.png
 ---
 
 acciones:
-- Click en el cambas y con las teclas de dirección para cambiar entre imagenes
+- Click en el canvas y con las teclas de dirección para cambiar entre imagenes
 
+<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/histograma/histosw.pde"> codigo </a>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>

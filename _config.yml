@@ -19,7 +19,7 @@ description: Sitio para los avances y entregables de la materia computacion visu
 baseurl: "/visualcomputingcoders" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  visualcodersunal
+github_username:  visualcomputingcoders
 
 # Build settings
 markdown: kramdown
