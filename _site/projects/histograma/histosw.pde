@@ -1,3 +1,4 @@
+    
 PGraphics pg;
 PImage photo;
 PImage photoTransform;
@@ -11,6 +12,7 @@ void setup() {
   photo = loadImage("luffy.png");
   photoTransform = loadImage("luffy.png");
   histogram = createImage(300, 300, RGB);
+  
   
 }
 
@@ -45,8 +47,11 @@ void draw() {
   }
   photoTransform.updatePixels();
   pg.image(photoTransform,0,0);
+  photoTransform.filter(GRAY);
   pg.endDraw();
+
   image(pg, 335, 10);
+
   
 
   // calculo histograma  
