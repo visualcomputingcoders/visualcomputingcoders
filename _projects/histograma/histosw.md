@@ -7,7 +7,7 @@ thumbnail: histo.png
 ---
 
 acciones:
-- Teclas de dirección para cambiar entre imagenes
+- Click en el cambas y con las teclas de dirección para cambiar entre imagenes
 
 
 
