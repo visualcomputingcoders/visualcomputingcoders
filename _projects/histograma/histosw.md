@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Despliegue histograma"
+title:  "histograma y segmentacion"
 date:   2020-09-22
 thumbnail: histo.png
 
@@ -19,7 +19,7 @@ acciones:
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
 <body>
-    <h1>Processing histograma</h1>
+    <h1>Processing histograma Y Segmentación</h1>
  
     <canvas data-processing-sources="histosw.pde"></canvas>
      <canvas data-processing-sources="histosw2.pde"></canvas>
