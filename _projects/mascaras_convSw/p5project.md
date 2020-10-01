@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Mascaras de convolución"
+title:  "Mascaras de convolución Software"
 date:   2020-09-16
 thumbnail: filtro.jpg
 dependencies:
     - p5
 ---
+ Se realizó la aplicación de 6 mascaras de convolución,recorriendo la imagen pixel a pixel y aplicando a cada uno la matriz de convolución respectiva, esto con el fin de lograr el filtro o mascara deseada, a continuación se listan las mascaras que se pueden aplicar 
 
 
 acciones:

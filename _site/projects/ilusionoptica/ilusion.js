@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(240);
 
   //First
   fill(255, 0, 0)
@@ -43,7 +43,7 @@ function draw() {
 
 
   //Second
-  fill('green')
+  fill('blue')
   stroke('yellow')
   strokeWeight(2)
 

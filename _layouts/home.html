@@ -6,7 +6,7 @@ layout: default
 
     <div class="row">
 
-        {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% assign projects = site.projects | sort: 'date'%}
         {% for project in projects %}
           <div class="col-lg-4 col-md-4 col-sm-6">
               <a href="{{ project.url | relative_url }}">
