@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mascaras de convolución Software"
+title:  "Mascaras de convolución por SOFTWARE"
 date:   2020-09-16
 thumbnail: filtro.jpg
 dependencies:

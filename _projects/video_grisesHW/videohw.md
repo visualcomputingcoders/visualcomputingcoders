@@ -15,7 +15,7 @@ acciones:
 - Tecla 2: Detección de bordes
 - Tecla 3: Desenfoque
 - Tecla 4: Sharpen
-- Tecla 0: Original
+- Tecla 0: Video original
 
 
 

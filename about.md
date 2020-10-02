@@ -4,5 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is a template website for showing p5.js sketches. See [here](https://github.com/BenjaminHabert/jekyll-p5-portfolio) for more infos.
+Sitio usado para mostrar los talleres de la asignatura Computación visual 2020-2 de la Universidad Nacional de Colombia.
+
+Grupo:
+- Rafael Salgado
+- Andrey Herrera
+- Jose Salazar
+- Cristian Tafur
 

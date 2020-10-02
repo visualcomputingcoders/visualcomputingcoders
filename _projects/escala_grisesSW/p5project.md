@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conversion escala de grises software"
+title:  "Conversion escala de grises por SOFTWARE"
 date:   2020-09-16
 thumbnail: conversion.jpg
 dependencies:

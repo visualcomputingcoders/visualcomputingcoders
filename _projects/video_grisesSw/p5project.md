@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Video Escala de grises y mascaras por Software"
+title:  "Video Escala de grises y mascaras por SOFTWARE"
 date:   2020-09-16
 thumbnail: conversion.jpg
 dependencies:
@@ -11,9 +11,11 @@ dependencies:
 
 acciones:
 - Tecla 1: promedio RGB
-- Tecla 2: Enfocar bordes
+- Tecla 2: Luma
 - Tecla 3: Repujado
-- Tecla 4: Detección de bordes
+- Tecla 4: sharpen
+- Tecla 5: Detección de bordes
+- Tecla 0: video original
 
 
 

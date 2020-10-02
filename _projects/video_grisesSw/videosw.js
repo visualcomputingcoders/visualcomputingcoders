@@ -57,13 +57,13 @@ function keyPressed(){
                        [ -1,  9, -1 ],
                        [ -1, -1, -1 ] ]; 
             break;
-        case '2':   // Repujado
+        case '4':   // Repujado
             matrix = [ [ -2, -1,  0 ],
                        [ -1,  1,  1 ],
                        [  0,  1,  2 ] ]; 
             value = 12;
             break;
-        case '3':   // Detección de bordes
+        case '5':   // Detección de bordes
             matrix = [ [  1,  0, -1 ],
                        [  0,  0,  0 ],
                        [ -1,  0,  1 ] ]; 
@@ -88,9 +88,7 @@ const drawCanvas_02 = ()=>{ // Pone el segundo video en el lienzo 2
 const selectValue = ()=>{ // Selecciona el filtro a utilizar dependiendo del valor que tenga value
     if ( 0 < value && value <10 ) {
         filtrosBlancoNegro(value);
-    } else if(value === 'c') {
-        complementary();
-    } else if(value > 10) {
+    }else if(value > 10) {
         convolutions();
     }
 }
@@ -133,21 +131,6 @@ const filtrosBlancoNegro = (gray)=>{ // Escala de grises
 	img_02.updatePixels();
 }
 
-const complementary = ()=>{ // Colores opuestos
-    //let img2 = createImage(512, 550);
-	img_02.loadPixels();
-
-    for(var y = 0 ; y < img_02.height; y++) {
-        for(var x = 0; x < img_02.width; x++) {
-            let index = (x + y * img_02.width) * 4;
-
-            img_02.pixels[index + 0] = 255 - img_02.pixels[index + 0];
-            img_02.pixels[index + 1] = 255 - img_02.pixels[index + 1];
-            img_02.pixels[index + 2] = 255 - img_02.pixels[index + 2];
-        }
-    }
-    img_02.updatePixels();
-}
 
 const convolutions = ()=>{ // Mascara de convoluciones
     img_02.loadPixels();
