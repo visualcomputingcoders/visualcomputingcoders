@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conversion escala de grises Hardware"
+title:  "Conversion escala de grises HARDWARE"
 date:   2020-10-01
 thumbnail: gray.jpg
 dependencies:

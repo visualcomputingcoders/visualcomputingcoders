@@ -4,11 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Conversion escala de grises HARDWARE</title>
-  <meta name="description" content="Promedio RGB y LUMA acciones: Tecla 1: RGB Tecla 2: LUMA Tecla 0: Original codigo">
+  <title>Mascaras de convolución Software</title>
+  <meta name="description" content="Se realizó la aplicación de 6 mascaras de convolución,recorriendo la imagen pixel a pixel y aplicando a cada uno la matriz de convolución respectiva, esto co...">
   <link rel="icon" type="image/png" href="/visualcomputingcoders/assets/favicon.png" />
   <link rel="stylesheet" href="/visualcomputingcoders/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/visualcomputingcoders/projects/escala_grisesHW/p5project.html">
+  <link rel="canonical" href="http://localhost:4000/visualcomputingcoders/projects/mascaras_convSw/masksw.html">
   <link rel="alternate" type="application/rss+xml" title="visual computing 20202" href="/visualcomputingcoders/feed.xml">
   <!-- dependencies -->
   
@@ -82,33 +82,36 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Conversion escala de grises HARDWARE</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Mascaras de convolución Software</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2020-10-01T00:00:00-05:00" itemprop="datePublished">Oct 1, 2020
+      <time class="dt-published" datetime="2020-09-16T00:00:00-05:00" itemprop="datePublished">Sep 16, 2020
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h3 id="promedio-rgb--y-luma">Promedio RGB  y LUMA</h3>
+    <p>Se realizó la aplicación de 6 mascaras de convolución,recorriendo la imagen pixel a pixel y aplicando a cada uno la matriz de convolución respectiva, esto con el fin de lograr el filtro o mascara deseada, a continuación se listan las mascaras que se pueden aplicar</p>
 
 <p>acciones:</p>
 <ul>
-  <li>Tecla 1: RGB</li>
-  <li>Tecla 2: LUMA</li>
   <li>Tecla 0: Original</li>
+  <li>Tecla 1: Acentuar bordes</li>
+  <li>Tecla 2: Repujado</li>
+  <li>Tecla 3: Deteccion de bordes</li>
+  <li>Tecla 4: Deteccion de bordes</li>
+  <li>Tecla 5: Enfoque</li>
+  <li>Tecla 6: Desenfoque Gauss</li>
 </ul>
 
-<p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/escala_grisesHW/escala_griseshw.js"> codigo </a></p>
+<p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/mascaras_conv/maskSW.js"> codigo </a></p>
 
 <div id="simple-sketch-holder">
- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
-    <script type="text/javascript" src="escala_griseshw.js"></script>
+    <script type="text/javascript" src="maskSW.js"></script>
 </div>
 
+<h5>Demo prueba en servidor nodejs Pato <a href="http://visualcomputing.tk/convolucion/index.html">Demo</a> </h5>
 
-  </div><a class="u-url" href="/visualcomputingcoders/projects/escala_grisesHW/p5project.html" hidden></a>
+
+  </div><a class="u-url" href="/visualcomputingcoders/projects/mascaras_convSw/masksw.html" hidden></a>
 </article>
 
       </div>

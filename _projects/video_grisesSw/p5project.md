@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Video Escala de grises Software"
+title:  "Video Escala de grises y mascaras por Software"
 date:   2020-09-16
 thumbnail: conversion.jpg
 dependencies:
