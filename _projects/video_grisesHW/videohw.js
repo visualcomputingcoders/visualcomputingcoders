@@ -27,27 +27,24 @@ function setup() {
     
   frameRate(fr); 
   
-  // Se requiere trabajar con WEBGL
+  // uso de webGL
   var canvas = createCanvas(1000, 400, WEBGL);
   canvas.parent('simple-sketch-holder');
 
   noStroke();
-  // inicializar la capa del createGraphics
+  // inicializar la capa del createGraphics crea y retorna un nuevo objeto p5.Renderer.
   shaderTexture = createGraphics(512, 512, WEBGL);
   shaderVideo = createGraphics(windowWidth, windowHeight, WEBGL);
   
-
-  //cam.hide();
   video.loop();
 }
 
 function draw() {
-  // Se pasa el shader a la capa del createGraphics
-  
+  // pasamos el shader al lienzo createGraphics  
   shaderTexture.shader(theShader);
   shaderVideo.shader(theShaderVideo);
 
-  // Valores uniform para el fragment shader
+  //  enviar nuestros valores uniformes al shader
   theShader.setUniform("u_img", img);
   theShader.setUniform("u_key", mask);
   theShader.setUniform("stepSize", [1.0/width,1.0/height]);

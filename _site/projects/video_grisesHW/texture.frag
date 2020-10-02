@@ -1,9 +1,9 @@
-// Estas son definiciones necesarias que le permiten a la tarjeta gráfica saber cómo representar el sombreador
+// Estas son definiciones necesarias que le permiten a la tarjeta gráfica saber cómo representar el shader
 #ifdef GL_ES
 precision mediump float;
 #endif
 
-// Le permiten a la tarjeta gráfica saber cómo representar el sombreador
+// Le permiten a la tarjeta gráfica saber cómo representar el shader
 varying vec2 vTexCoord;
 
 // La textura que queremos manipular
