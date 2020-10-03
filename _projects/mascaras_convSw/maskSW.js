@@ -36,7 +36,6 @@ function draw() {
     drawImage_02();
 
 	
-	
 }
 // Dibuja la imagen de la Izquierda
 function drawImage_01() {

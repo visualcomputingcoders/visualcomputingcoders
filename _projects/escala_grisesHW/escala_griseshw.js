@@ -12,7 +12,7 @@ let gray = 0;
 
 function preload(){
   img = loadImage('luffy.png');
-  video = createVideo('https://d2v9y0dukr6mq2.cloudfront.net/video/preview/GTYSdDW/divers-watching-sea-turtle-swim-through-coral-reef_zksb-usls__PMNW.mp4');
+  video = createVideo('');
   video.hide();
   // Cargar los shaders
   theShader = loadShader('texture.vert','texture.frag');
@@ -43,23 +43,18 @@ function setup() {
 function draw() {
   // Se pasa el shader a la capa del createGraphics
   shaderTexture.shader(theShader);
-  shaderVideo.shader(theShaderVideo);
+  
 
   // Valores uniform para el fragment shader
   theShader.setUniform("u_img", img);
   theShader.setUniform("u_key", gray);
-  theShaderVideo.setUniform('u_img', video);
-  theShaderVideo.setUniform('u_key', gray);
+
   
   // Renderizar el shader
   shaderTexture.rect(0,0,width,height);
-  shaderVideo.rect(0,0,width,height);
-
+ 
   background(0);
 
-  
-
-  translate(0, 0, 0);
   push();
   //Se pasa el shader como textura
   texture(shaderTexture);
@@ -72,21 +67,13 @@ function draw() {
   
   // Rotacion de la caja
   angle += 0.002;
-  
-  push();
+    
   // Se pasa la imagen original como textura
-  texture(img);
-  
-  ellipse(-250, 0, 350, 350, 100);
-  //plane(500,500);
-  pop();
-  
+  texture(img);  
+  ellipse(-250, 0, 350, 350, 100);  
   push();
-  //Se pasa el shader del video como textura
-  texture(shaderVideo);
-  translate(0, 0, -100);
-  plane(900,500);
-  pop();  
+
+
 }
 
 // Se ejecuta cuando se presiona cualquier tecla
@@ -97,11 +84,7 @@ function keyPressed() {
 	gray = 1;
 	} else if (key === '2') {
 	gray = 2;
-	} else if (key === '3') {
-	gray = 3;
-	} else if (key === '4') {
-	gray = 4;
-	}
+	} 
 }
 
 function windowResized(){
