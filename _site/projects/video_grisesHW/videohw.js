@@ -102,17 +102,7 @@ function keyPressed() {
 	mask = 3;
 	} else if (key === '4') {
 	mask = 4;
-	} else if (key === '5') {
-	mask = 5;
-	} else if (key === '6') {
-	mask = 6;
-	} else if (key === '7') {
-	mask = 7;
-	} else if (key === '8') {
-	mask = 8;
-	} else if (key === '9') {
-	mask = 9;
-	}
+	} 
 }
 
 function windowResized(){
