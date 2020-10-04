@@ -63,7 +63,7 @@ function keyPressed() {
     gray = 1;
   } else if (key === '2') { 
     gray = 2;
-  }  else if (key === '3') { 
+  }  else if (key === '0') { 
     gray = 0;
   }  
 
