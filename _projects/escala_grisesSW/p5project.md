@@ -22,7 +22,7 @@ acciones:
 - Tecla 2: LUMA
 - Tecla 0: Original
 
-<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/escala_grises/escala_grises.js"> codigo </a>
+<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/escala_grisesSW/escala_grises.js"> codigo </a>
 
 <div id="simple-sketch-holder">
     <script type="text/javascript" src="escala_grises.js"></script>

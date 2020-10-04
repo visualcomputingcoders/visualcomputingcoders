@@ -24,7 +24,7 @@ acciones:
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
 </head>
-<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/video_grises/video.pde"> codigo </a>
+<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/video_grisesSw/videosw.js"> codigo </a>
 
 <!-- <body>
     <h1>Processing Test</h1>

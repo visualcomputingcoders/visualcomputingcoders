@@ -19,7 +19,7 @@ acciones:
 - Tecla 6: Desenfoque Gauss
 
  
-<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/mascaras_conv/maskSW.js"> codigo </a>
+<a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/mascaras_convSw/maskSW.js"> codigo </a>
 
 
 <div id="simple-sketch-holder">
