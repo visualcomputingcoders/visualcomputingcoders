@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ilusiones opticas"
-date:   2020-09-22
+date:   2020-10-20
 thumbnail: ilusion.png
 
 ---
