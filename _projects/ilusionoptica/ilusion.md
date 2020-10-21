@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ilusión optica"
+title:  "Ilusión optica P5"
 date:   2020-09-22
 thumbnail: ilusion.jpg
 dependencies:
