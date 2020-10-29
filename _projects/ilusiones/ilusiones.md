@@ -26,10 +26,11 @@ El propósito de este taller es comprender algunos aspectos fundamentales de la 
     <p> Curvas a partir de lineas</p>    
     <a href="https://visualcomputing.tk/curvas/index.html" target="_blank"> Demo server node js</a>
      <embed src="https://visualcomputing.tk/curvas/index.html" style="width:850px; height: 500px;">   
-     <h1>Rotacion de puntos </h1>
+     <h1>Rotacion de la figura </h1>
     <p>referencia  <a href="https://michaelbach.de/ot/mot-strob/index.html"  target="_blank"> ColorWheel </a></p>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/angularVelocity.pde" target="_blank"> Código </a>
-    <p> A parentemente los puntos estan rotando en movimiento, pero cada punto solo esta moviendose en un eje</p>    
+    <p> Aparentemente vemos una figura creada por estos puntos en rotacion, pero en realidad
+    cada uno de estos puntos solo se mueve en direccion de  un eje lineal </p>    
       <canvas data-processing-sources="pointsIlution.pde"></canvas>
     <h1>ColorWheel</h1>
     <p>referencia  <a href="https://michaelbach.de/ot/mot-strob/index.html"  target="_blank"> ColorWheel </a></p>
