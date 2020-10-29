@@ -28,7 +28,7 @@ El propósito de este taller es comprender algunos aspectos fundamentales de la 
      <embed src="https://visualcomputing.tk/curvas/index.html" style="width:850px; height: 500px;">   
      <h1>Rotacion de la figura </h1>
     <p>referencia  <a href="https://michaelbach.de/ot/mot-strob/index.html"  target="_blank"> ColorWheel </a></p>
-    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/angularVelocity.pde" target="_blank"> Código </a>
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/pointsIlution.pde" target="_blank"> Código </a>
     <p> Aparentemente vemos una figura creada por estos puntos en rotacion, pero en realidad
     cada uno de estos puntos solo se mueve en direccion de  un eje lineal </p>    
       <canvas data-processing-sources="pointsIlution.pde"></canvas>
