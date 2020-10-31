@@ -61,7 +61,9 @@ Ilusiones ficticias (alucinaciones): se perciben imágenes que en realidad no ex
     <p>referencia  <a href="https://es.wikipedia.org/wiki/Escalera_de_Penrose"  target="_blank"> escalera Penrose</a></p>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusionoptica/penrose.js" target="_blank"> Código </a>
     <p> Escalera infinita o imposible  </p> 
+    <a href="http://3.220.168.238:3000/penrose/index.html" >demo server</a>
      <embed src="http://3.220.168.238:3000/penrose/index.html" style="width:850px; height: 1000px;">
+
 
      
 </body>
