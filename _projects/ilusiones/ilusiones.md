@@ -29,13 +29,15 @@ Ilusiones ficticias (alucinaciones): se perciben imágenes que en realidad no ex
     <p> Aunque no lo parezca los bloques avanzan continuamente y recorren el mismo espacio en el eje horizontal simultaneamente y no por pasos </p>    
     <a href="https://visualcomputing.tk/pasos/index.html" target="_blank"> Demo server node js</a>
      <embed src="https://visualcomputing.tk/pasos/index.html" style="width:850px; height: 500px;">   
+
 <h1>Linea Curva con lineas rectas</h1>   
     <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/curvas/sketch.js" target="_blank"> Código </a>
+    <p>referencia  <a href="http://proyectomatematicasyarte.blogspot.com/2015/12/crear-curvas-parabolicas-con-lineas.html"  target="_blank"> referencia </a></p>
     <p> Curvas a partir de lineas</p>    
     <a href="https://visualcomputing.tk/curvas/index.html" target="_blank"> Demo server node js</a>
-     <embed src="https://visualcomputing.tk/curvas/index.html" style="width:850px; height: 500px;">   
-     <h1>Ilusion de rotación radial (Cognitiva Interactiva)</h1>
-    <p>referencia  <a href="https://demonstrations.wolfram.com/RotationIllusionForRadialWaveMotionOfDiscretePoints/"  target="_blank"> rotacion radial </a></p>
+     <embed src="https://visualcomputing.tk/curvas/index.html" style="width:850px; height: 500px;">     
+     <h1>Ilusion de rotación radial (Cognitiva Interactiva)</h1> 
+     <p>referencia  <a href="https://demonstrations.wolfram.com/RotationIllusionForRadialWaveMotionOfDiscretePoints/"  target="_blank"> referencia </a></p>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/pointsIlution.pde" target="_blank"> Código </a>
     <p> Aparentemente vemos una figura creada por estos puntos en rotacion, pero en realidad
     cada uno de estos puntos solo se mueve en direccion de  un eje lineal </p>    
@@ -46,7 +48,7 @@ Ilusiones ficticias (alucinaciones): se perciben imágenes que en realidad no ex
     <p> A 120 °: allí el disco aparece casi estatico, porque cada sector se está alternando rápidamente entre los tres colores, y adicionalmente parece que gira en sentido contrario
     Alrededor de ∆ = 360 °, el disco parece estacionario nuevamente, porque una rotación completa entre ellos no cambia nada.</p>    
       <canvas data-processing-sources="angularVelocity.pde"></canvas>
-     <h1> Rotacion del punto (cognitiva-ambiguedad)</h1>
+     <h1> Rotacion del punto (cognitiva-after Image)</h1>
     <p>referencia  <a href="https://commons.wikimedia.org/wiki/File:Disappearing_dots.gif"  target="_blank">  afterImage </a></p>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/rotatePoint.pde" target="_blank"> Código </a>
     <p> Después de central la vista en el punto central. Un punto verde aparece como estela del punto que va girando. Posteriormente los puntos de color magenta desaparecen  </p> 
@@ -63,6 +65,14 @@ Ilusiones ficticias (alucinaciones): se perciben imágenes que en realidad no ex
     <p> Escalera infinita o imposible  </p> 
     <a href="http://3.220.168.238:3000/penrose/index.html" >demo server</a>
      <embed src="http://3.220.168.238:3000/penrose/index.html" style="width:850px; height: 1000px;">
+  <h1>Linea Curva con lineas rectas con transformaciones</h1>   
+ <p>referencia  <a href="http://proyectomatematicasyarte.blogspot.com/2015/12/crear-curvas-parabolicas-con-lineas.html"  target="_blank"> referencia </a></p>
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/transformaciones.pde" target="_blank"> Código </a>
+    <p> Curvas a partir de lineas usando transformaciones</p>       
+    <canvas data-processing-sources="transformaciones.pde"></canvas>   
+
+
+
 
 
      
