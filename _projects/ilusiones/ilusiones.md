@@ -43,7 +43,7 @@ Ilusiones ficticias (alucinaciones): se perciben imágenes que en realidad no ex
     <h1>ColorWheel(Cognitiva movimiento - Interactiva)</h1>
     <p>referencia  <a href="https://michaelbach.de/ot/mot-strob/index.html"  target="_blank"> ColorWheel </a></p>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/ilusiones/angularVelocity.pde" target="_blank"> Código </a>
-    <p> a ∆ = 60 °, y más claramente a 120 °: allí el disco aparece estatico, porque cada sector se está alternando rápidamente entre los tres colores, en los 120° e disco parece que gira en sentido contrario
+    <p> A 120 °: allí el disco aparece casi estatico, porque cada sector se está alternando rápidamente entre los tres colores, y adicionalmente parece que gira en sentido contrario
     Alrededor de ∆ = 360 °, el disco parece estacionario nuevamente, porque una rotación completa entre ellos no cambia nada.</p>    
       <canvas data-processing-sources="angularVelocity.pde"></canvas>
      <h1> Rotacion del punto (cognitiva-ambiguedad)</h1>
