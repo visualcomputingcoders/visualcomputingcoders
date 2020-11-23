@@ -17,27 +17,27 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
 <body>  
 <h1>Atenuacion de la luz</h1> 
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/combine_lights_models/sketch.js" target="_blank"> Código </a>        
-    <a href="http://visualcomputing.tk/light_attenuation/index.html" target="_blank"> server node js</a>
-     <embed src="http://visualcomputing.tk/light_attenuation/index.html" style="width:850px; height: 700px;">
+    <a href="https://visualcomputing.tk/light_attenuation/index.html" target="_blank"> server node js</a>
+     <embed src="https://visualcomputing.tk/light_attenuation/index.html" style="width:850px; height: 700px;">
 
 <h1>Luz ambiente y atenuacion de la luz</h1> 
     <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/ambient_lights/sketch.js" target="_blank"> Código </a>        
-    <a href="http://visualcomputing.tk/ambient_lights/index.html" target="_blank"> server node js</a>
-     <embed src="http://visualcomputing.tk/ambient_lights/index.html" style="width:850px; height: 500px;">
+    <a href="https://visualcomputing.tk/ambient_lights/index.html" target="_blank"> server node js</a>
+     <embed src="https://visualcomputing.tk/ambient_lights/index.html" style="width:850px; height: 500px;">
      <h1>combinacion de modelos de luces 2</h1> 
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/combine_lights_models/sketch.js" target="_blank"> Código </a>        
-    <a href="http://visualcomputing.tk/combine_lights_models/index.html" target="_blank"> server node js</a>
-     <embed src="http://visualcomputing.tk/combine_lights_models/index.html" style="width:850px; height: 700px;">
+    <a href="https://visualcomputing.tk/combine_lights_models/index.html" target="_blank"> server node js</a>
+     <embed src="https://visualcomputing.tk/combine_lights_models/index.html" style="width:850px; height: 700px;">
   <h1>Normal mapping</h1> 
   <p> <a href="https://en.wikipedia.org/wiki/Normal_mapping"  target="_blank"> referencia </a></p>
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/normal_mapping/sketch.js" target="_blank"> Código </a>        
-    <a href="http://visualcomputing.tk/normal_mapping/index.html" target="_blank"> server node js</a>
-     <embed src="http://visualcomputing.tk/normal_mapping/index.html" style="width:850px; height: 700px;">
+    <a href="https://visualcomputing.tk/normal_mapping/index.html" target="_blank"> server node js</a>
+     <embed src="https://visualcomputing.tk/normal_mapping/index.html" style="width:850px; height: 700px;">
       <h1>shadow mapping</h1> 
       <p><a href="https://en.wikipedia.org/wiki/Shadow_mapping"  target="_blank"> referencia </a></p>
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/normal_mapping/sketch.js" target="_blank"> Código </a>        
-    <a href="http://visualcomputing.tk/shadow_mapping/index.html" target="_blank"> server node js</a>
-     <embed src="http://visualcomputing.tk/shadow_mapping/index.html" style="width:850px; height: 700px;">
+    <a href="https://visualcomputing.tk/shadow_mapping/index.html" target="_blank"> server node js</a>
+     <embed src="https://visualcomputing.tk/shadow_mapping/index.html" style="width:850px; height: 700px;">
 
      
 </body>
