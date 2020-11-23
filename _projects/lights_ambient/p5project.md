@@ -12,8 +12,8 @@ Uso de tres tipos de luces, con una ambientación con luz roja, una luz puntual 
 
 <body>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lights_ambient/luces1.js" target="_blank"> Código </a>
-    <a href="https://3.220.168.238:3000/light1/index.html"> demo en AWS EC2</a>
-     <embed src="https://3.220.168.238:3000/light1/index.html" style="width:800px; height: 500px;">
+    <a href="http://3.220.168.238:3000/light1/index.html"> demo en AWS EC2</a>
+     <embed src="http://3.220.168.238:3000/light1/index.html" style="width:800px; height: 500px;">
 
      
 </body>
