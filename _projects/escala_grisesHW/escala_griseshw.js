@@ -52,6 +52,12 @@ function draw() {
   
   // Renderizar el shader
   shaderTexture.rect(0,0,width,height);
+
+  pointLight(255, 255, 255, 0, 0, 500);
+	// Efecto linterna
+	let dx= mouseX-width/2;
+	let dy= mouseY-height/2;
+	pointLight(100,250,255,dx,dy,100);
  
   background(0);
 

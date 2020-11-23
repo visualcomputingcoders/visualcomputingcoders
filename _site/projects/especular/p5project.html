@@ -4,11 +4,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Histograma y segmentacion</title>
-  <meta name="description" content="Histograma Se utilizan varios canvas, y se almacenan las frecuencias de los diferentes valores de brillo de la imagen en escala de grises, tomando en cuenta ...">
+  <title>Reflexion especular</title>
+  <meta name="description" content="Reflexión Especular">
   <link rel="icon" type="image/png" href="/visualcomputingcoders/assets/favicon.png" />
   <link rel="stylesheet" href="/visualcomputingcoders/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/visualcomputingcoders/projects/histograma/histosw.html">
+  <link rel="canonical" href="http://localhost:4000/visualcomputingcoders/projects/especular/p5project.html">
   <link rel="alternate" type="application/rss+xml" title="visual computing 20202" href="/visualcomputingcoders/feed.xml">
   <!-- dependencies -->
   
@@ -44,6 +44,21 @@
   
   <!-- custom page dependencies -->
   
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+  
   <!-- google analytics -->
   
 </head>
@@ -67,46 +82,42 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Histograma y segmentacion</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Reflexion especular</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2020-09-22T00:00:00-05:00" itemprop="datePublished">Sep 22, 2020
+      <time class="dt-published" datetime="2020-11-20T00:00:00-05:00" itemprop="datePublished">Nov 20, 2020
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="histograma">Histograma</h2>
+    <h2 id="reflexión-especular">Reflexión Especular</h2>
 
-<p>Se utilizan varios canvas, y se almacenan las frecuencias de los diferentes valores de brillo de la imagen en escala de grises, tomando en cuenta que cada canal de color tiene 256 niveles de intensidad posibles, cad apunto representado por un valor de brillo en un rango desde 0(negros) hasta 255(blancos) y valores intermedios los diferentes valores de gris y luego se gráfica estas frecuencias mostrando información sobre el brillo y contraste de la imagen.</p>
-
-<h3 id="segmentación">Segmentación</h3>
-
-<p>Para la segmentacion con ayuda de la funcion map(), mapeamos la posición del puntero del mause en el eje x, entre el rango ocupado por la imagen del histograma, se mapea a un rango de 0 a 256, que es el tamaño del arreglo del histograma donde tenemos almacenados las frecuencias de los diferentres valores de brillo de la imagen, asi mismo definimos un intervalo para recorrer la foto y el histograma a medida que nos desplazamos con el puntero a través del histograma, el valor inicial es el valor retornado por la funcion map(), y el valor final sera esa misma cantidad mas un determinada valor, dependiendo del tamaño del segmento que se desee.</p>
-
-<p>acciones:</p>
 <ul>
-  <li>
-    <p>Click en el canvas y con las teclas de dirección para cambiar entre imagenes</p>
-  </li>
-  <li>
-    <p>Para la segmentacion Click en el segundo canvas y con el puntero del mouse sobre el histograma observar la segmentacion</p>
-  </li>
+  <li>Es propia de superficies brillantes, pulidas, y responsable de los
+brillos que suelen observarse.</li>
+  <li>El color del brillo suele ser diferente del color de la superficie y muy
+parecido al color de la fuente de luz.</li>
+  <li>Phong propone que la luz que llega al observador dependa
+´unicamente del ´angulo Φ entre el vector de reflexi´on perfecta R y el
+vector direcci´on del observador V.</li>
+  <li>Si R y V son vectores unitarios, ks
+, 0 ≤ ks ≤ 1, representa la parte
+de luz especular reflejada por la superficie y α modela el brillo
+caracterıstico del material de la superficie.</li>
 </ul>
 
-<p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/histograma/histosw.pde"> código histograma</a></p>
+<p><img src="reflexion.jpg" alt="alt text" title="tipos de reflexión" /></p>
 
-<p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/histograma/histosw2.pde"> código segmentación </a></p>
+<p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/especular/ilumina.js"> codigo </a></p>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
-
-<body>
-    <h1>Processing histograma Y Segmentación</h1>
+<div id="simple-sketch-holder">
  
-    <canvas data-processing-sources="histosw.pde"></canvas>
-     <canvas data-processing-sources="histosw2.pde"></canvas>
-</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script type="text/javascript" src="ilumina.js"></script>
+</div>
 
 
-  </div><a class="u-url" href="/visualcomputingcoders/projects/histograma/histosw.html" hidden></a>
+  </div><a class="u-url" href="/visualcomputingcoders/projects/especular/p5project.html" hidden></a>
 </article>
 
       </div>
