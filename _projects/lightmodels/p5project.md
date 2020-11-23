@@ -38,7 +38,9 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/normal_mapping/sketch.js" target="_blank"> Código </a>        
     <a href="https://visualcomputing.tk/shadow_mapping/index.html" target="_blank"> server node js</a>
      <embed src="https://visualcomputing.tk/shadow_mapping/index.html" style="width:850px; height: 700px;">
-
+  <h1>Demo processing</h1>   
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/combine.pde" target="_blank"> Código </a>        
+    <canvas data-processing-sources="combine.pde"></canvas>   
      
 </body>
 
