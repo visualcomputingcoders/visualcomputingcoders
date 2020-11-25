@@ -24,6 +24,12 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
     <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/ambient_lights/sketch.js" target="_blank"> Código </a>        
     <a href="https://visualcomputing.tk/ambient_lights/index.html" target="_blank"> server node js</a>
      <embed src="https://visualcomputing.tk/ambient_lights/index.html" style="width:850px; height: 500px;">
+
+
+<h1>Luz ambiente - direccional</h1> 
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lights_ambient/luces1.js" target="_blank"> Código </a>
+    <a href="http://3.220.168.238:3000/light1/index.html"> demo server node js</a>
+     <embed src="http://3.220.168.238:3000/light1/index.html" style="width:800px; height: 500px;">
      <h1>Luz niebla</h1> 
     <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/fog/sketch.js" target="_blank"> Código </a>        
     <a href="http://visualcomputing.tk/fog/index.html" target="_blank"> server node js</a>
@@ -43,11 +49,18 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
      <embed src="https://visualcomputing.tk/shadow_mapping/index.html" style="width:850px; height: 700px;">
 
 
-  <h1>Demo processing</h1>   
-    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/combine.pde" target="_blank"> Código </a>     
-    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/pixLight.pde" target="_blank"> Código </a>      
-    <canvas data-processing-sources="combine.pde"></canvas>   
+  <h1>8 light - nub</h1>   
+   <p>Demo en processing</p>
+    <img src="8lightNub.jpg" alt="8 light Nub" width="500" height="400"> 
+<p></p>
+<p></p>
+  <h1>Pix Light</h1>   
+   <p>Demo en processing</p>     
+    <p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/pixLight.pde" target="_blank"> Código </a> </p>
+
+    <canvas data-processing-sources="pixLight.pde"></canvas>   
      
+  
 </body>
 
 

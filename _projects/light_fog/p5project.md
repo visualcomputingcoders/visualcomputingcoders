@@ -13,8 +13,11 @@ dependencies:
 
 <body>
     <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/light_fog/luces1.js" target="_blank"> Código </a>
+
+    <p> por motivos de velocidad, el demo se ejecuta en el server node js</p>
+
     <a href="http://visualcomputing.tk/fog/index.html"> demo server node js</a>
-     <embed src="http://visualcomputing.tk/fog/index.html" style="width:800px; height: 900px;">
+     
 
      
 </body>
