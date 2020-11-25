@@ -44,7 +44,8 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
 
 
   <h1>Demo processing</h1>   
-    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/combine.pde" target="_blank"> Código </a>        
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/combine.pde" target="_blank"> Código </a>     
+    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/pixLight.pde" target="_blank"> Código </a>      
     <canvas data-processing-sources="combine.pde"></canvas>   
      
 </body>
