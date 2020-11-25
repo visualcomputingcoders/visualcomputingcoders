@@ -25,7 +25,7 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
     <a href="https://visualcomputing.tk/ambient_lights/index.html" target="_blank"> server node js</a>
      <embed src="https://visualcomputing.tk/ambient_lights/index.html" style="width:850px; height: 500px;">
      <h1>Luz niebla</h1> 
-    <a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/light_fog/luces1.js" target="_blank"> Código </a>        
+    <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/fog/sketch.js" target="_blank"> Código </a>        
     <a href="http://visualcomputing.tk/fog/index.html" target="_blank"> server node js</a>
      <h1>combinacion de modelos de luces 2</h1> 
        <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/combine_lights_models/sketch.js" target="_blank"> Código </a>        
@@ -38,7 +38,7 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
      <embed src="https://visualcomputing.tk/normal_mapping/index.html" style="width:850px; height: 700px;">
       <h1>shadow mapping</h1> 
       <p><a href="https://en.wikipedia.org/wiki/Shadow_mapping"  target="_blank"> referencia </a></p>
-       <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/normal_mapping/sketch.js" target="_blank"> Código </a>        
+       <a href="https://github.com/visualcomputingcoders/serverP5/blob/master/shadow_mapping/sketch.js" target="_blank"> Código </a>        
     <a href="https://visualcomputing.tk/shadow_mapping/index.html" target="_blank"> server node js</a>
      <embed src="https://visualcomputing.tk/shadow_mapping/index.html" style="width:850px; height: 700px;">
 
