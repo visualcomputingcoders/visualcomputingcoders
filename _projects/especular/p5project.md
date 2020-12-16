@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reflexion especular"
-date:   2020-11-20
+date:   2020-11-13
 thumbnail: luces3.jpg
 dependencies:
     - p5

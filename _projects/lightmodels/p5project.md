@@ -58,8 +58,6 @@ El modelado de los colores y efectos de iluminación  que se ven en un objeto
    <p>Demo en processing</p>     
     <p><a href="https://github.com/visualcomputingcoders/visualcomputingcoders/blob/master/_projects/lightmodels/pixLight.pde" target="_blank"> Código </a> </p>
 
-    <canvas data-processing-sources="pixLight.pde"></canvas>   
-     
   
 </body>
 

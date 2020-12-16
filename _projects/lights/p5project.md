@@ -22,7 +22,6 @@ acciones:
      <embed src="http://3.220.168.238:8081/fog/" style="width:600px; height: 500px;">
 
 
-
      
 </body>
 
